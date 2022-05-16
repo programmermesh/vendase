@@ -1,0 +1,27 @@
+.nav-link {
+  cursor: pointer;
+}
+
+.txt{
+  margin-left: 40px;
+  margin-top:20px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.badge.badge-pill.badge-success.pill-1 {
+  position: relative;
+  top: -44px;
+  left: 90px;
+  font-size:5px;
+  background-color: rgb(130, 241, 130);
+}
+
+.txt-online{
+  font-family: "Open Sans";
+      font-size: 10px;
+      font-style: normal;
+      margin-top: -64px;
+      margin-left: 128px;
+}

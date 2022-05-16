@@ -1,0 +1,138 @@
+@import "../../assets/css/_attribute.scss";
+section {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+aside {
+  background: linear-gradient(
+      to right,
+      rgb(58, 141, 255, 0.85),
+      rgb(134, 185, 255, 0.85)
+    ),
+    url("../../assets/img/bg-img.png") no-repeat fixed;
+  clear: left;
+  float: left;
+  width: 28%;
+  padding: 2%;
+  height: 680px;
+}
+
+main {
+  float: left;
+  width: 72%;
+  padding: 2px;
+  height: 680px;
+  background: #fff;
+}
+
+.converse {
+  width: 70%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  word-wrap: break-word;
+  margin-left: 30px;
+  margin-top: 10%;
+}
+
+input{
+  width: 40%;
+  padding-left: 5px;
+  font-size: 12px;
+  height: 27px;
+}
+
+.form-size{
+//margin-left: 100px;
+margin-top: 5%;
+}
+
+input:hover,  
+input:active,
+input:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    background-image: linear-gradient(to top, rgb(58, 141, 255, 0.85) 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.welcome{
+  font-size: 20px; 
+  font-weight: 800;
+  margin-top: 120px;
+}
+
+.account {
+  margin-left: 150px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.account-button {
+  margin-left: 10px;
+  width: 150px;
+  height: 42px;
+  border: none;
+  background-color: #fff;
+  color: #3A8DFF;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    border: none;
+    color: #fff;
+    background-color: #3A8DFF;
+  }
+}
+
+.main-button {
+        margin-top:10px;
+        width: 120px;
+        height: 42px;
+        border: none;
+        background-color: #3A8DFF;
+        text-transform: capitalize;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        outline: none;
+        &:hover {
+          border: none;
+          color: #fff;
+          background-color: #3A8DFF;
+        }
+      }
+    
+  .main-div{
+    margin-left: 170px;
+  }
+
+  .main-button-div{
+    margin-top: 15px;
+  }
+
+  .forgot{
+    color:#3A8DFF;
+    font-size: 9px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  }
+  .main-forgot{
+    margin-top: -35px;
+  }
+
+  .bubble{
+    margin-top:220px;
+    margin-left: 80px;
+  }

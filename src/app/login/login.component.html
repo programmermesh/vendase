@@ -1,0 +1,52 @@
+  <section>
+
+    <aside>
+      <div>
+        <img class="bubble" src="../../assets/bubble.svg" />
+      </div>
+      <div class="converse">
+        Converse with anyone with any language</div>
+    </aside>
+
+    <main>
+      <p class="account">Don't have an account?
+        <button class="btn account-button" (click)="register()">create account</button>
+      </p>
+      <div class="main-div">
+      <p class="welcome">Welcome back!</p>
+        <form class="form-size" [formGroup]="loginForm" autocomplete="off">
+          <div class="md-form">
+            <div class="form-group">
+              <label>Username</label>
+              <input
+                type="text"
+                class="form-control"
+                formControlName="username"
+                placeholder="username"
+                required
+              />
+            </div>
+          </div>
+          <div class="md-form">
+            <div class="form-group">
+              <label>Password</label>
+              <input
+              type="password"
+              class="form-control"
+              formControlName="password"
+              placeholder="Password"
+              required
+              />
+            </div> 
+          </div>
+          <div class="main-forgot offset-md-4">
+            <span class="forgot">Forgot?</span>
+          </div>
+          <div class="main-button-div offset-md-1">
+            <button class="btn main-button" (click)="loginUser()">Login</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    
+</section>
